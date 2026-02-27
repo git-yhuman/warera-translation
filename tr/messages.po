@@ -4976,7 +4976,7 @@ msgstr "Tur #{0}"
 #. placeholder {0}: data.roundNumber
 #: src/components/_user/notification/notification.frontConfig.tsx:803
 msgid "Round <0>#{0}</0> in <1/> is about to end!"
-msgstr "<1/> sindeki <0>#{0}</0>. tur bitmek üzere!"
+msgstr "<1/> savaşında <0>#{0}</0>. tur bitmek üzere!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:801
 msgid "Round about to end"
