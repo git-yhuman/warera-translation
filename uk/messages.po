@@ -433,7 +433,7 @@ msgstr "Пріоритет <0/> закінчується через <1/>"
 #. placeholder {0}: levelConfig.stats.resistanceGrowthReduction ?? 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:58
 msgid "<0>-{0}%</0> Resistance growth per hour"
-msgstr "<0>-{0%}</0> до росту спротиву щогодини"
+msgstr "<0>-{0}%</0> до росту спротиву щогодини"
 
 #. placeholder {0}: companiesIds?.length ?? 0
 #. placeholder {1}: companiesLimit ?? 99
