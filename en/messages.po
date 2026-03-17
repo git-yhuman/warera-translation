@@ -1019,7 +1019,7 @@ msgstr "A revolution has started in <0/>"
 msgid "A strategic resource has been found in this region, it gives its owner a production and development bonus."
 msgstr "A strategic resource has been found in this region, it gives its owner a production and development bonus."
 
-#: src/components/_user/modals/PhoneVerificationModal.tsx:135
+#: src/components/_user/modals/PhoneVerificationModal.tsx:138
 msgid "A verification code has been sent to {phoneNumber}"
 msgstr "A verification code has been sent to {phoneNumber}"
 
@@ -1267,8 +1267,8 @@ msgid "Amount of companies you can own"
 msgstr "Amount of companies you can own"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:108
-msgid "An administrator has requested that you verify your mobile phone number."
-msgstr "An administrator has requested that you verify your mobile phone number."
+msgid "An administrator has requested that you verify your phone number. Please complete the verification as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days."
+msgstr "An administrator has requested that you verify your phone number. Please complete the verification as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days."
 
 #: src/components/_political/event/event.frontConfig.tsx:339
 msgid "An alliance has been broken"
@@ -3828,7 +3828,7 @@ msgstr "Minister of Foreign Affairs"
 msgid "Missions"
 msgstr "Missions"
 
-#: src/components/_user/modals/PhoneVerificationModal.tsx:114
+#: src/components/_user/modals/PhoneVerificationModal.tsx:117
 msgid "Mobile phone number"
 msgstr "Mobile phone number"
 
@@ -5375,7 +5375,7 @@ msgstr "Send a message"
 msgid "Send a message to complete the tutorial. Welcome to the community!"
 msgstr "Send a message to complete the tutorial. Welcome to the community!"
 
-#: src/components/_user/modals/PhoneVerificationModal.tsx:126
+#: src/components/_user/modals/PhoneVerificationModal.tsx:129
 msgid "Send Code"
 msgstr "Send Code"
 
@@ -6433,7 +6433,7 @@ msgid "Verification code sent!"
 msgstr "Verification code sent!"
 
 #: src/components/_user/auth/LoginFormModal.tsx:149
-#: src/components/_user/modals/PhoneVerificationModal.tsx:172
+#: src/components/_user/modals/PhoneVerificationModal.tsx:175
 msgid "Verify"
 msgstr "Verify"
 
