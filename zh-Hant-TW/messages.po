@@ -1491,8 +1491,8 @@ msgstr "攻擊"
 msgid "Attacker"
 msgstr "攻擊方"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:72
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:165
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:77
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:166
 msgid "Attackers"
 msgstr "攻擊方"
 
@@ -1600,7 +1600,7 @@ msgstr "基礎頭盔"
 msgid "Basic Pants"
 msgstr "基礎褲子"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:84
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:85
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:188
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:194
 #: src/components/_military/mercenaryContract/MercenaryProposalItem.tsx:108
@@ -1617,7 +1617,7 @@ msgstr "戰鬥已結束"
 msgid "Battle Hero"
 msgstr ""
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:39
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:41
 msgid "Battle loots"
 msgstr ""
 
@@ -2358,7 +2358,7 @@ msgstr "要移除的中常委"
 msgid "countries"
 msgstr "國家"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:95
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:96
 msgid "Countries"
 msgstr "國家"
 
@@ -2523,7 +2523,7 @@ msgstr ""
 msgid "Damage Limit"
 msgstr ""
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:112
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:113
 msgid "Damage ranking"
 msgstr "傷害排名"
 
@@ -2661,8 +2661,8 @@ msgstr "防禦"
 msgid "Defender"
 msgstr "防守方"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:57
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:157
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:62
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:158
 msgid "Defenders"
 msgstr "防守方"
 
@@ -3080,8 +3080,8 @@ msgstr "傳統點數："
 msgid "Events"
 msgstr "活動"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:42
-msgid "Every <0/> damage dealt by a side adds a random item to its loot pool. On round end, the winning side gets bonus items: 1 per 1M total damage dealt. Top damage dealers on each side receive the best items first."
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:44
+msgid "Every <0/> damage dealt by a side adds a random item to its round loot pool. On round end, {winnerPercent}% of rolled cases go to the winning side's battle pool and {loserPercent}% go to the losing side's battle pool. Items are ranked by estimated value and distributed in order: rank 1 receives the most valuable item, rank 2 the next, and so on."
 msgstr ""
 
 #: src/pages/tournament/[tournamentId]/index.tsx:42
@@ -3493,7 +3493,7 @@ msgstr "優勢點"
 msgid "ground per tick"
 msgstr "每刻優勢點"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:121
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:122
 msgid "Ground points"
 msgstr "優勢點"
 
@@ -4056,7 +4056,7 @@ msgstr "獲得了箱子"
 msgid "Looted money"
 msgstr "獲得了錢"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:52
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:57
 msgid "Loots"
 msgstr ""
 
@@ -4277,7 +4277,7 @@ msgstr "軍團"
 msgid "Military unit created"
 msgstr "軍團已創建"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:103
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:104
 msgid "Military units"
 msgstr "軍團"
 
@@ -4319,7 +4319,7 @@ msgstr ""
 msgid "Money"
 msgstr ""
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:133
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:134
 msgid "Money earned from mercenary contracts."
 msgstr "從傭兵合約中賺到的錢"
 
@@ -4331,7 +4331,7 @@ msgstr ""
 msgid "Money per 1k Damages"
 msgstr ""
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:132
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:133
 msgid "Money ranking"
 msgstr "金錢排名"
 
@@ -4700,7 +4700,7 @@ msgstr "沒有國會議員"
 msgid "No contributions yet"
 msgstr "尚無貢獻者"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:173
+#: src/components/_military/damageRanking/DamageRankingList.tsx:171
 msgid "No damages ranking yet."
 msgstr "還沒有傷害排名"
 
@@ -4708,7 +4708,7 @@ msgstr "還沒有傷害排名"
 msgid "No donations yet"
 msgstr "尚無捐款"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:175
+#: src/components/_military/damageRanking/DamageRankingList.tsx:173
 msgid "No ground ranking yet."
 msgstr "還沒有優勢點排名。"
 
@@ -4732,7 +4732,7 @@ msgstr "沒有找到軍團"
 msgid "No missions available"
 msgstr "沒有任務可用"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:176
+#: src/components/_military/damageRanking/DamageRankingList.tsx:174
 msgid "No money ranking yet."
 msgstr "還沒有金錢排名。"
 
@@ -5912,7 +5912,7 @@ msgstr ""
 #. placeholder {0}: (roundIndex ?? 0) + 1
 #. placeholder {0}: i + 1
 #: src/components/_military/battle/BattleTimelineRound.tsx:88
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:73
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:74
 msgid "Round #{0}"
 msgstr "回合 #{0}"
 
@@ -6203,7 +6203,7 @@ msgstr "設定"
 msgid "Shop"
 msgstr "商店"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:192
+#: src/components/_military/damageRanking/DamageRankingList.tsx:190
 #: src/components/_social/ArticleTags.tsx:268
 #: src/components/_social/ArticleTags.tsx:319
 #: src/components/_social/ArticleTags.tsx:427
@@ -7165,7 +7165,7 @@ msgstr "用戶已擁有所有造型"
 msgid "User blocked"
 msgstr "用戶遭屏蔽"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:122
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:123
 msgid "User participation to the ground points."
 msgstr "用戶對優勢點的貢獻"
 
@@ -7189,7 +7189,7 @@ msgstr "用戶名"
 msgid "Username removed"
 msgstr "用戶名已刪除"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:88
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:89
 msgid "Users"
 msgstr "用戶"
 
@@ -8022,7 +8022,7 @@ msgstr "你的高級訂閱方案已啟動！"
 msgid "Your premium subscription has expired!"
 msgstr "你的高級訂閱方案已到期！"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:198
+#: src/components/_military/damageRanking/DamageRankingList.tsx:196
 msgid "Your rank"
 msgstr "你的排名"
 

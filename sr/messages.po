@@ -1491,8 +1491,8 @@ msgstr "Напад"
 msgid "Attacker"
 msgstr "Нападач"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:72
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:165
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:77
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:166
 msgid "Attackers"
 msgstr "Нападачи"
 
@@ -1600,7 +1600,7 @@ msgstr "Основна кацига"
 msgid "Basic Pants"
 msgstr "Основне Панталоне"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:84
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:85
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:188
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:194
 #: src/components/_military/mercenaryContract/MercenaryProposalItem.tsx:108
@@ -1617,7 +1617,7 @@ msgstr "Битка завршена"
 msgid "Battle Hero"
 msgstr ""
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:39
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:41
 msgid "Battle loots"
 msgstr ""
 
@@ -2358,7 +2358,7 @@ msgstr "Члан одбора за уклањање"
 msgid "countries"
 msgstr "земље"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:95
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:96
 msgid "Countries"
 msgstr "Земље"
 
@@ -2523,7 +2523,7 @@ msgstr ""
 msgid "Damage Limit"
 msgstr ""
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:112
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:113
 msgid "Damage ranking"
 msgstr "Ранг листа штете"
 
@@ -2661,8 +2661,8 @@ msgstr "Одбрани"
 msgid "Defender"
 msgstr "Бранилац"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:57
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:157
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:62
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:158
 msgid "Defenders"
 msgstr "Браниоци"
 
@@ -3080,8 +3080,8 @@ msgstr "Етички поени:"
 msgid "Events"
 msgstr "Догађаји"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:42
-msgid "Every <0/> damage dealt by a side adds a random item to its loot pool. On round end, the winning side gets bonus items: 1 per 1M total damage dealt. Top damage dealers on each side receive the best items first."
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:44
+msgid "Every <0/> damage dealt by a side adds a random item to its round loot pool. On round end, {winnerPercent}% of rolled cases go to the winning side's battle pool and {loserPercent}% go to the losing side's battle pool. Items are ranked by estimated value and distributed in order: rank 1 receives the most valuable item, rank 2 the next, and so on."
 msgstr ""
 
 #: src/pages/tournament/[tournamentId]/index.tsx:42
@@ -3493,7 +3493,7 @@ msgstr "Земља"
 msgid "ground per tick"
 msgstr "земље по тику"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:121
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:122
 msgid "Ground points"
 msgstr "Поени земље"
 
@@ -4056,7 +4056,7 @@ msgstr "Покупљена сандучад"
 msgid "Looted money"
 msgstr "Новац покупљен"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:52
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:57
 msgid "Loots"
 msgstr ""
 
@@ -4277,7 +4277,7 @@ msgstr "Војна Јединица"
 msgid "Military unit created"
 msgstr "Војна јединица креирана"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:103
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:104
 msgid "Military units"
 msgstr "Војне јединице"
 
@@ -4319,7 +4319,7 @@ msgstr ""
 msgid "Money"
 msgstr ""
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:133
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:134
 msgid "Money earned from mercenary contracts."
 msgstr "Новац зарађен од плаћеничких уговора."
 
@@ -4331,7 +4331,7 @@ msgstr ""
 msgid "Money per 1k Damages"
 msgstr ""
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:132
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:133
 msgid "Money ranking"
 msgstr "Ранг листа новца"
 
@@ -4700,7 +4700,7 @@ msgstr "Нема чланова владе"
 msgid "No contributions yet"
 msgstr "Још нема доприноса"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:173
+#: src/components/_military/damageRanking/DamageRankingList.tsx:171
 msgid "No damages ranking yet."
 msgstr "Још увек нема рангирања штете."
 
@@ -4708,7 +4708,7 @@ msgstr "Још увек нема рангирања штете."
 msgid "No donations yet"
 msgstr "Још нема донација"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:175
+#: src/components/_military/damageRanking/DamageRankingList.tsx:173
 msgid "No ground ranking yet."
 msgstr "Још увек нема рангирања поена."
 
@@ -4732,7 +4732,7 @@ msgstr "Нису пронађене војне јединице"
 msgid "No missions available"
 msgstr "Нема доступних мисија"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:176
+#: src/components/_military/damageRanking/DamageRankingList.tsx:174
 msgid "No money ranking yet."
 msgstr "Још увек нема рангирања новца."
 
@@ -5912,7 +5912,7 @@ msgstr ""
 #. placeholder {0}: (roundIndex ?? 0) + 1
 #. placeholder {0}: i + 1
 #: src/components/_military/battle/BattleTimelineRound.tsx:88
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:73
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:74
 msgid "Round #{0}"
 msgstr "Рунда #{0}"
 
@@ -6203,7 +6203,7 @@ msgstr "Подешавања"
 msgid "Shop"
 msgstr "Радња"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:192
+#: src/components/_military/damageRanking/DamageRankingList.tsx:190
 #: src/components/_social/ArticleTags.tsx:268
 #: src/components/_social/ArticleTags.tsx:319
 #: src/components/_social/ArticleTags.tsx:427
@@ -7165,7 +7165,7 @@ msgstr "Корисник поседује све скинове"
 msgid "User blocked"
 msgstr "Корисник блокиран"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:122
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:123
 msgid "User participation to the ground points."
 msgstr "Учешће корисника у поенима терена."
 
@@ -7189,7 +7189,7 @@ msgstr "Корисничко име"
 msgid "Username removed"
 msgstr "Корисничко име уклоњено"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:88
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:89
 msgid "Users"
 msgstr "Корисници"
 
@@ -8022,7 +8022,7 @@ msgstr "Твоја премиум претплата је активирана!"
 msgid "Your premium subscription has expired!"
 msgstr "Твоја премиум претплата је истекла!"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:198
+#: src/components/_military/damageRanking/DamageRankingList.tsx:196
 msgid "Your rank"
 msgstr "Твој ранг"
 

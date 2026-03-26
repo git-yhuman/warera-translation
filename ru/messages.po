@@ -1491,8 +1491,8 @@ msgstr "Атака"
 msgid "Attacker"
 msgstr "Атакующий"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:72
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:165
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:77
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:166
 msgid "Attackers"
 msgstr "Атакующие"
 
@@ -1600,7 +1600,7 @@ msgstr "Базовый Шлем"
 msgid "Basic Pants"
 msgstr "Базовые Штаны"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:84
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:85
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:188
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:194
 #: src/components/_military/mercenaryContract/MercenaryProposalItem.tsx:108
@@ -1617,7 +1617,7 @@ msgstr "Битва окончена"
 msgid "Battle Hero"
 msgstr ""
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:39
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:41
 msgid "Battle loots"
 msgstr ""
 
@@ -2358,7 +2358,7 @@ msgstr "Член Совета для удаления"
 msgid "countries"
 msgstr "стран"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:95
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:96
 msgid "Countries"
 msgstr "Страны"
 
@@ -2523,7 +2523,7 @@ msgstr ""
 msgid "Damage Limit"
 msgstr ""
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:112
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:113
 msgid "Damage ranking"
 msgstr "Рейтинг урона"
 
@@ -2661,8 +2661,8 @@ msgstr "Защита"
 msgid "Defender"
 msgstr "Защитник"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:57
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:157
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:62
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:158
 msgid "Defenders"
 msgstr "Защитники"
 
@@ -3080,8 +3080,8 @@ msgstr "Очки принципов:"
 msgid "Events"
 msgstr "События"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:42
-msgid "Every <0/> damage dealt by a side adds a random item to its loot pool. On round end, the winning side gets bonus items: 1 per 1M total damage dealt. Top damage dealers on each side receive the best items first."
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:44
+msgid "Every <0/> damage dealt by a side adds a random item to its round loot pool. On round end, {winnerPercent}% of rolled cases go to the winning side's battle pool and {loserPercent}% go to the losing side's battle pool. Items are ranked by estimated value and distributed in order: rank 1 receives the most valuable item, rank 2 the next, and so on."
 msgstr ""
 
 #: src/pages/tournament/[tournamentId]/index.tsx:42
@@ -3493,7 +3493,7 @@ msgstr "Высоты"
 msgid "ground per tick"
 msgstr "высот за тик"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:121
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:122
 msgid "Ground points"
 msgstr "Занятые высоты"
 
@@ -4056,7 +4056,7 @@ msgstr "Залутал кейсы"
 msgid "Looted money"
 msgstr "Залутал деньги"
 
-#: src/components/_military/battleLoot/BattleLootsCard.tsx:52
+#: src/components/_military/battleLoot/BattleLootsCard.tsx:57
 msgid "Loots"
 msgstr ""
 
@@ -4277,7 +4277,7 @@ msgstr "ВО"
 msgid "Military unit created"
 msgstr "Военный отряд создан"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:103
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:104
 msgid "Military units"
 msgstr "Военные отряды"
 
@@ -4319,7 +4319,7 @@ msgstr ""
 msgid "Money"
 msgstr ""
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:133
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:134
 msgid "Money earned from mercenary contracts."
 msgstr "Деньги заработанные на наёмных контрактах."
 
@@ -4331,7 +4331,7 @@ msgstr ""
 msgid "Money per 1k Damages"
 msgstr ""
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:132
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:133
 msgid "Money ranking"
 msgstr "Рейтинг богатства"
 
@@ -4700,7 +4700,7 @@ msgstr "Нет депутатов"
 msgid "No contributions yet"
 msgstr "Нет взносов"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:173
+#: src/components/_military/damageRanking/DamageRankingList.tsx:171
 msgid "No damages ranking yet."
 msgstr "Нет рейтинга урона."
 
@@ -4708,7 +4708,7 @@ msgstr "Нет рейтинга урона."
 msgid "No donations yet"
 msgstr "Нет пожертвований"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:175
+#: src/components/_military/damageRanking/DamageRankingList.tsx:173
 msgid "No ground ranking yet."
 msgstr "Нет рейтинга занятых высот."
 
@@ -4732,7 +4732,7 @@ msgstr "Военные отряды не найдены"
 msgid "No missions available"
 msgstr "Миссии недоступны"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:176
+#: src/components/_military/damageRanking/DamageRankingList.tsx:174
 msgid "No money ranking yet."
 msgstr "Нет рейтинга богатства."
 
@@ -5912,7 +5912,7 @@ msgstr ""
 #. placeholder {0}: (roundIndex ?? 0) + 1
 #. placeholder {0}: i + 1
 #: src/components/_military/battle/BattleTimelineRound.tsx:88
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:73
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:74
 msgid "Round #{0}"
 msgstr "Раунд #{0}"
 
@@ -6203,7 +6203,7 @@ msgstr "Настройки"
 msgid "Shop"
 msgstr "Магазин"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:192
+#: src/components/_military/damageRanking/DamageRankingList.tsx:190
 #: src/components/_social/ArticleTags.tsx:268
 #: src/components/_social/ArticleTags.tsx:319
 #: src/components/_social/ArticleTags.tsx:427
@@ -7165,7 +7165,7 @@ msgstr "У этого игрока уже есть все скины"
 msgid "User blocked"
 msgstr "Игрок заблокирован"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:122
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:123
 msgid "User participation to the ground points."
 msgstr "Вклад игрока в захват высот."
 
@@ -7189,7 +7189,7 @@ msgstr "Никнейм"
 msgid "Username removed"
 msgstr "Никнейм удалён"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:88
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:89
 msgid "Users"
 msgstr "Игроки"
 
@@ -8022,7 +8022,7 @@ msgstr "Ваша премиум-подписка активирована!"
 msgid "Your premium subscription has expired!"
 msgstr "Ваша премиум-подписка истекла!"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:198
+#: src/components/_military/damageRanking/DamageRankingList.tsx:196
 msgid "Your rank"
 msgstr "Ваше звание"
 
